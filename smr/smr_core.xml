@@ -7611,7 +7611,7 @@
     <run_mode>eigenvalue</run_mode>
     <particles>10000</particles>
     <batches>800</batches>
-    <max_lost_particles>1000</max_lost_particles>
+    <max_lost_particles>10000</max_lost_particles>
     <rel_max_lost_particles>0.999</rel_max_lost_particles>
     <inactive>10</inactive>
     <source particle="neutron" strength="1.0" type="independent">

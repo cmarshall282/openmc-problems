@@ -14,6 +14,8 @@
   <batches>3000</batches>
   <inactive>20</inactive>
   <particles>10000</particles>
+  <max_lost_particles>10000</max_lost_particles>
+  <rel_max_lost_particles>0.999</rel_max_lost_particles>
 
   <source>
     <space>
