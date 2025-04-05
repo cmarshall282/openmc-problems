@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell fill="9" id="1" region="-1 2 -3 -4 5 6 -301 300" universe="3"/>
+  <cell id="2" material="11" region="~(-1 2 -3 -4 5 6) (-7 8 -9 -10 11 12) -301 300" universe="3"/>
+  <cell id="3" material="11" region="-7 8 -9 -10 11 12 301 -304" universe="3"/>
+  <cell id="4" material="11" region="-7 8 -9 -10 11 12 -300 303" universe="3"/>
+  <cell id="200" material="7" universe="1"/>
+  <cell id="400" material="7" region="-400 -301 300" universe="4"/>
+  <cell id="401" material="12" region="400 -402 -301 300" universe="4"/>
+  <cell id="402" material="7" region="402 -301 300" universe="4"/>
+  <cell id="410" material="1" region="-410 -301 300" universe="10"/>
+  <cell id="411" material="10" region="410 -411 -301 300" universe="10"/>
+  <cell id="412" material="12" region="411 -412 -301 300" universe="10"/>
+  <cell id="413" material="7" region="412 -301 300" universe="10"/>
+  <cell id="420" material="2" region="-420 -301 300" universe="5"/>
+  <cell id="421" material="10" region="420 -421 -301 300" universe="5"/>
+  <cell id="422" material="12" region="421 -422 -301 300" universe="5"/>
+  <cell id="423" material="7" region="422 -301 300" universe="5"/>
+  <cell id="430" material="3" region="-430 -301 300" universe="6"/>
+  <cell id="431" material="10" region="430 -431 -301 300" universe="6"/>
+  <cell id="432" material="12" region="431 -432 -301 300" universe="6"/>
+  <cell id="433" material="7" region="432 -301 300" universe="6"/>
+  <cell id="440" material="13" region="-440 -301 300" universe="7"/>
+  <cell id="441" material="10" region="440 -441 -301 300" universe="7"/>
+  <cell id="442" material="12" region="441 -442 -301 300" universe="7"/>
+  <cell id="443" material="7" region="442 -301 300" universe="7"/>
+  <cell id="450" material="14" region="-450 -301 300" universe="8"/>
+  <cell id="451" material="10" region="450 -451 -301 300" universe="8"/>
+  <cell id="452" material="12" region="451 -452 -301 300" universe="8"/>
+  <cell id="453" material="7" region="452 -301 300" universe="8"/>
+  <hex_lattice id="9" n_rings="8" name="assembly">
+    <pitch>1.275</pitch>
+    <outer>1</outer>
+    <center>0.0 0.0</center>
+    <universes>
+              7 
+            7   7 
+          7   5   8 
+        8   6   6   7 
+      7   5   10  5   8 
+    8   6   10  10  6   7 
+  7   5   10  5   5   5   7 
+7   6   5   6   6   10  6   7 
+  10  10  10  10  10  10  10
+7   10  6   10  5   6   10  7 
+  6   5   5   5   10  5   6 
+7   10  10  6   6   10  10  8 
+  5   6   5   10  5   6   5 
+8   10  10  10  10  5   5   7 
+  6   10  6   4   6   10  6 
+7   5   5   10  10  10  10  8 
+  5   6   5   10  5   6   5 
+8   10  10  6   6   10  10  7 
+  6   5   10  5   5   5   6 
+7   10  6   5   10  6   10  7 
+  10  10  10  10  10  10  5 
+7   6   10  6   6   5   6   7 
+  7   5   5   5   10  5   7 
+    7   6   10  10  6   8 
+      8   5   10  5   7 
+        7   6   6   8 
+          8   5   7 
+            7   7 
+              7 </universes>
+  </hex_lattice>
+  <surface coeffs="15.588457268119894" id="1" type="x-plane"/>
+  <surface coeffs="-15.588457268119894" id="2" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 18.0" id="3" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 18.0" id="4" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -18.0" id="5" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -18.0" id="6" type="plane"/>
+  <surface boundary="vacuum" coeffs="16.454482671904334" id="7" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-16.454482671904334" id="8" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 19.0" id="9" type="plane"/>
+  <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 19.0" id="10" type="plane"/>
+  <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 -19.0" id="11" type="plane"/>
+  <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 -19.0" id="12" type="plane"/>
+  <surface coeffs="-75" id="300" type="z-plane"/>
+  <surface coeffs="75" id="301" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="-95" id="303" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="95" id="304" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.3765" id="400" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="402" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.3765" id="410" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4" id="411" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="412" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.3765" id="420" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4" id="421" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="422" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.3765" id="430" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4" id="431" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="432" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.3765" id="440" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4" id="441" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="442" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.3765" id="450" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4" id="451" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="452" type="z-cylinder"/>
+</geometry>

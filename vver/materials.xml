@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="au13">
+    <density units="g/cc" value="10.4"/>
+    <nuclide ao="0.00011766243358786282" name="U234"/>
+    <nuclide ao="0.01316408373783828" name="U235"/>
+    <nuclide ao="0.9866579560021345" name="U238"/>
+    <nuclide ao="6.0297826439380684e-05" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="2" name="au22">
+    <density units="g/cc" value="10.4"/>
+    <nuclide ao="0.00019909777905018086" name="U234"/>
+    <nuclide ao="0.022275077571611283" name="U235"/>
+    <nuclide ao="0.9774237940949843" name="U238"/>
+    <nuclide ao="0.00010203055435420074" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="3" name="av5">
+    <density units="g/cc" value="10.4"/>
+    <nuclide ao="0.0002714687807976247" name="U234"/>
+    <nuclide ao="0.030371951808732825" name="U235"/>
+    <nuclide ao="0.9692174612830511" name="U238"/>
+    <nuclide ao="0.00013911812741848606" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material id="7" name="water">
+    <density units="g/cm3" value="1.0"/>
+    <nuclide ao="2.0" name="H1"/>
+    <nuclide ao="1.0" name="O16"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="10" name="Helium">
+    <density units="g/cm3" value="0.000178"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+  <material id="11" name="Reflector">
+    <density units="g/cm3" value="2.9"/>
+    <nuclide ao="1.0" name="Be9"/>
+    <nuclide ao="1.0" name="O16"/>
+  </material>
+  <material id="12" name="niobium(0.01)-zirconium(0.99)">
+    <density units="g/cm3" value="6.615206483983016"/>
+    <nuclide ao="0.00982065763586437" name="Nb93"/>
+    <nuclide ao="0.5094472716463477" name="Zr90"/>
+    <nuclide ao="0.111098122213256" name="Zr91"/>
+    <nuclide ao="0.16981575721544928" name="Zr92"/>
+    <nuclide ao="0.17209316970288677" name="Zr94"/>
+    <nuclide ao="0.0277250215861958" name="Zr96"/>
+  </material>
+  <material depletable="true" id="13" name="Gd2O3(0.05)-awu(0.95)">
+    <density units="g/cm3" value="10.19432502149613"/>
+    <nuclide ao="4.905379094976132e-05" name="Gd152"/>
+    <nuclide ao="0.0005346863213523984" name="Gd154"/>
+    <nuclide ao="0.0036299805302823372" name="Gd155"/>
+    <nuclide ao="0.005020655503708071" name="Gd156"/>
+    <nuclide ao="0.0038384591418188234" name="Gd157"/>
+    <nuclide ao="0.006092480835960355" name="Gd158"/>
+    <nuclide ao="0.005361579350808911" name="Gd160"/>
+    <nuclide ao="0.661002310636702" name="O16"/>
+    <nuclide ao="0.00025111738443583665" name="O17"/>
+    <nuclide ao="0.0013254227330486744" name="O18"/>
+    <nuclide ao="9.34314857346107e-05" name="U234"/>
+    <nuclide ao="0.010453123095083845" name="U235"/>
+    <nuclide ao="0.30229981886553653" name="U238"/>
+    <nuclide ao="4.788032457778572e-05" name="U236"/>
+  </material>
+  <material depletable="true" id="14" name="Gd2O3(0.05)-go(0.95)">
+    <density units="g/cm3" value="10.194325021496132"/>
+    <nuclide ao="4.905010381117398e-05" name="Gd152"/>
+    <nuclide ao="0.0005346461315417964" name="Gd154"/>
+    <nuclide ao="0.003629707682026874" name="Gd155"/>
+    <nuclide ao="0.005020278125073657" name="Gd156"/>
+    <nuclide ao="0.003838170623224364" name="Gd157"/>
+    <nuclide ao="0.006092022893347807" name="Gd158"/>
+    <nuclide ao="0.005361176346561315" name="Gd160"/>
+    <nuclide ao="0.6610026171671527" name="O16"/>
+    <nuclide ao="0.0002511175008879637" name="O17"/>
+    <nuclide ao="0.0013254233476946767" name="O18"/>
+    <nuclide ao="0.0001132405537485814" name="U234"/>
+    <nuclide ao="0.012669363420503588" name="U235"/>
+    <nuclide ao="0.30005515433466134" name="U238"/>
+    <nuclide ao="5.8031769763902475e-05" name="U236"/>
+  </material>
+</materials>

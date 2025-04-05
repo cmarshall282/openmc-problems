@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" name="2.0% Fuel" region="-3 2" universe="1"/>
+  <cell id="2" material="4" name="empty_space" region="3 -5 2" universe="1"/>
+  <cell id="3" material="2" name="2.0% Clad" region="5 -6 2" universe="1"/>
+  <cell id="4" material="1" name="2.0% Fuel" region="-3 -1" universe="1"/>
+  <cell id="5" material="4" name="empty_space" region="3 -5 -1" universe="1"/>
+  <cell id="6" material="2" name="2.0% Clad" region="5 -6 -1" universe="1"/>
+  <cell id="7" material="4" name="Moderator" region="6" universe="1"/>
+  <cell id="8" material="4" name="Sleeve" region="-6 1 -2" universe="1"/>
+  <cell id="9" material="4" name="Inner Rod" region="-7" universe="2"/>
+  <cell id="10" material="3" name="Outer Rod" region="7 -8" universe="2"/>
+  <cell id="11" material="4" name="Channel" region="-13 8 9 -10 ~(-14 9 -10) ~(-15 9 -10) ~(-16 9 -10) ~(-17 9 -10) ~(-18 9 -10) ~(-19 9 -10) ~(-20 9 -10) ~(-21 9 -10) ~(-22 9 -10) ~(-23 9 -10) ~(-24 9 -10) ~(-25 9 -10) ~(-26 9 -10) ~(-27 9 -10) ~(-28 9 -10) ~(-29 9 -10) ~(-30 9 -10) ~(-31 9 -10)" universe="3"/>
+  <cell fill="2" id="30" region="-32 -12 34" universe="3"/>
+  <cell fill="2" id="31" region="-8 33 -34" universe="3"/>
+  <cell fill="2" id="32" region="-32 -33 11" universe="3"/>
+  <cell fill="1" id="100" region="-14 9 -10" translation="1.8278330652787134 0.0 0.0" universe="3"/>
+  <cell fill="1" id="101" region="-15 9 -10" translation="0.9139165326393569 1.582949868408546 0.0" universe="3"/>
+  <cell fill="1" id="102" region="-16 9 -10" translation="-0.9139165326393563 1.5829498684085461 0.0" universe="3"/>
+  <cell fill="1" id="103" region="-17 9 -10" translation="-1.8278330652787134 2.238449912769271e-16 0.0" universe="3"/>
+  <cell fill="1" id="104" region="-18 9 -10" translation="-0.9139165326393575 -1.5829498684085455 0.0" universe="3"/>
+  <cell fill="1" id="105" region="-19 9 -10" translation="0.9139165326393555 -1.5829498684085466 0.0" universe="3"/>
+  <cell fill="1" id="200" region="-20 9 -10" translation="3.2068737432797065 0.8592792297403689 0.0" universe="3"/>
+  <cell fill="1" id="201" region="-21 9 -10" translation="2.3475945135393377 2.3475945135393377 0.0" universe="3"/>
+  <cell fill="1" id="202" region="-22 9 -10" translation="0.8592792297403695 3.206873743279706 0.0" universe="3"/>
+  <cell fill="1" id="203" region="-23 9 -10" translation="-0.8592792297403684 3.2068737432797065 0.0" universe="3"/>
+  <cell fill="1" id="204" region="-24 9 -10" translation="-2.3475945135393377 2.3475945135393377 0.0" universe="3"/>
+  <cell fill="1" id="205" region="-25 9 -10" translation="-3.206873743279706 0.8592792297403697 0.0" universe="3"/>
+  <cell fill="1" id="206" region="-26 9 -10" translation="-3.2068737432797065 -0.859279229740369 0.0" universe="3"/>
+  <cell fill="1" id="207" region="-27 9 -10" translation="-2.347594513539338 -2.3475945135393377 0.0" universe="3"/>
+  <cell fill="1" id="208" region="-28 9 -10" translation="-0.8592792297403714 -3.206873743279706 0.0" universe="3"/>
+  <cell fill="1" id="209" region="-29 9 -10" translation="0.8592792297403673 -3.206873743279707 0.0" universe="3"/>
+  <cell fill="1" id="210" region="-30 9 -10" translation="2.3475945135393355 -2.3475945135393403 0.0" universe="3"/>
+  <cell fill="1" id="211" region="-31 9 -10" translation="3.206873743279706 -0.8592792297403716 0.0" universe="3"/>
+  <surface coeffs="-12" id="1" type="z-plane"/>
+  <surface coeffs="12" id="2" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.55" id="3" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.596" id="5" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.68" id="6" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.75" id="7" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.7625" id="8" type="z-cylinder"/>
+  <surface boundary="reflective" coeffs="-364" id="9" type="z-plane"/>
+  <surface boundary="reflective" coeffs="364" id="10" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-400" id="11" type="z-plane"/>
+  <surface boundary="reflective" coeffs="600" id="12" type="z-plane"/>
+  <surface boundary="reflective" coeffs="0.0 0.0 4.5" id="13" type="z-cylinder"/>
+  <surface coeffs="1.8278330652787134 0.0 0.68" id="14" type="z-cylinder"/>
+  <surface coeffs="0.9139165326393569 1.582949868408546 0.68" id="15" type="z-cylinder"/>
+  <surface coeffs="-0.9139165326393563 1.5829498684085461 0.68" id="16" type="z-cylinder"/>
+  <surface coeffs="-1.8278330652787134 2.238449912769271e-16 0.68" id="17" type="z-cylinder"/>
+  <surface coeffs="-0.9139165326393575 -1.5829498684085455 0.68" id="18" type="z-cylinder"/>
+  <surface coeffs="0.9139165326393555 -1.5829498684085466 0.68" id="19" type="z-cylinder"/>
+  <surface coeffs="3.2068737432797065 0.8592792297403689 0.68" id="20" type="z-cylinder"/>
+  <surface coeffs="2.3475945135393377 2.3475945135393377 0.68" id="21" type="z-cylinder"/>
+  <surface coeffs="0.8592792297403695 3.206873743279706 0.68" id="22" type="z-cylinder"/>
+  <surface coeffs="-0.8592792297403684 3.2068737432797065 0.68" id="23" type="z-cylinder"/>
+  <surface coeffs="-2.3475945135393377 2.3475945135393377 0.68" id="24" type="z-cylinder"/>
+  <surface coeffs="-3.206873743279706 0.8592792297403697 0.68" id="25" type="z-cylinder"/>
+  <surface coeffs="-3.2068737432797065 -0.859279229740369 0.68" id="26" type="z-cylinder"/>
+  <surface coeffs="-2.347594513539338 -2.3475945135393377 0.68" id="27" type="z-cylinder"/>
+  <surface coeffs="-0.8592792297403714 -3.206873743279706 0.68" id="28" type="z-cylinder"/>
+  <surface coeffs="0.8592792297403673 -3.206873743279707 0.68" id="29" type="z-cylinder"/>
+  <surface coeffs="2.3475945135393355 -2.3475945135393403 0.68" id="30" type="z-cylinder"/>
+  <surface coeffs="3.206873743279706 -0.8592792297403716 0.68" id="31" type="z-cylinder"/>
+  <surface boundary="reflective" coeffs="0.0 0.0 0.7625" id="32" type="z-cylinder"/>
+  <surface coeffs="-364" id="33" type="z-plane"/>
+  <surface coeffs="364" id="34" type="z-plane"/>
+</geometry>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="2.0% Fuel">
+    <density units="g/cm3" value="10.4"/>
+    <nuclide ao="0.00018009766660366655" name="U234"/>
+    <nuclide ao="0.020149343268423638" name="U235"/>
+    <nuclide ao="0.9745782653947512" name="U238"/>
+    <nuclide ao="9.229367022139781e-05" name="U236"/>
+    <nuclide ao="6.9499999999999995e-06" name="Er162"/>
+    <nuclide ao="8.005000000000001e-05" name="Er164"/>
+    <nuclide ao="0.00167515" name="Er166"/>
+    <nuclide ao="0.00114345" name="Er167"/>
+    <nuclide ao="0.0013489" name="Er168"/>
+    <nuclide ao="0.0007455000000000001" name="Er170"/>
+    <nuclide ao="2.0" name="O16"/>
+  </material>
+  <material id="2" name="Zircaloy">
+    <density units="g/cm3" value="8.59"/>
+    <nuclide ao="0.509355" name="Zr90"/>
+    <nuclide ao="0.111078" name="Zr91"/>
+    <nuclide ao="0.16978500000000002" name="Zr92"/>
+    <nuclide ao="0.17206200000000002" name="Zr94"/>
+    <nuclide ao="0.02772" name="Zr96"/>
+    <nuclide ao="0.01" name="Nb93"/>
+  </material>
+  <material id="3" name="Carrier Rod Material">
+    <density units="g/cm3" value="8.59"/>
+    <nuclide ao="0.5016375" name="Zr90"/>
+    <nuclide ao="0.10939499999999999" name="Zr91"/>
+    <nuclide ao="0.16721250000000001" name="Zr92"/>
+    <nuclide ao="0.169455" name="Zr94"/>
+    <nuclide ao="0.0273" name="Zr96"/>
+    <nuclide ao="0.025" name="Nb93"/>
+  </material>
+  <material id="4" name="Helium">
+    <density units="g/cm3" value="0.178"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+</materials>

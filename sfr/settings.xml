@@ -2,13 +2,14 @@
 <settings>
   <run_mode>eigenvalue</run_mode>
   <particles>1000</particles>
-  <batches>10</batches>
-  <inactive>5</inactive>
-  <max_lost_particles>10000</max_lost_particles>
-  <rel_max_lost_particles>0.999</rel_max_lost_particles>
+  <batches>100</batches>
+  <inactive>10</inactive>
   <source particle="neutron" strength="1.0" type="independent">
     <space type="box">
-      <parameters>-160 -160 -183 160 160 183</parameters>
+      <parameters>-300 -300 -50 300 300 50</parameters>
     </space>
+    <constraints>
+      <fissionable>true</fissionable>
+    </constraints>
   </source>
 </settings>

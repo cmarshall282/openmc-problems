@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="25" region="1 -2 -4 5" universe="1"/>
+  <cell id="2" material="27" region="2 -3 -4 5" universe="1"/>
+  <cell id="3" material="22" region="3 -4 5" universe="1"/>
+  <cell id="4" material="25" region="-1 -4 5" universe="1"/>
+  <cell id="5" material="26" region="-1 -4 5" universe="2"/>
+  <cell id="6" material="22" universe="3"/>
+  <cell fill="1" id="7" region="-6 7 -8 -11 9 10 -4 5" universe="4"/>
+  <cell id="8" material="22" region="~(-6 7 -8 -11 9 10) -4 5" universe="4"/>
+  <cell fill="2" id="9" region="-12 13 -14 -15 16 17 -4 5" universe="5"/>
+  <cell id="10" material="22" region="~(-12 13 -14 -15 16 17) -4 5" universe="5"/>
+  <cell id="11" material="22" region="-18 19 -20 -23 21 22 -4 5" universe="6"/>
+  <cell id="12" material="22" region="~(-18 19 -20 -23 21 22) -4 5" universe="6"/>
+  <cell fill="3" id="13" region="-24 25 -26 -27 28 29 -4 5" universe="7"/>
+  <cell id="14" material="26" region="~(-24 25 -26 -27 28 29) -4 5" universe="7"/>
+  <hex_lattice id="1" n_rings="9" name="inner assembly" orientation="x">
+    <pitch>1.24</pitch>
+    <outer>3</outer>
+    <center>0.0 0.0</center>
+    <universes>
+        1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1
+        1 1 1 1 1 1 1 1 1</universes>
+  </hex_lattice>
+  <hex_lattice id="2" n_rings="9" name="outer assembly" orientation="x">
+    <pitch>1.24</pitch>
+    <outer>3</outer>
+    <center>0.0 0.0</center>
+    <universes>
+        2 2 2 2 2 2 2 2 2
+       2 2 2 2 2 2 2 2 2 2
+      2 2 2 2 2 2 2 2 2 2 2
+     2 2 2 2 2 2 2 2 2 2 2 2
+    2 2 2 2 2 2 2 2 2 2 2 2 2
+   2 2 2 2 2 2 2 2 2 2 2 2 2 2
+  2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+  2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+   2 2 2 2 2 2 2 2 2 2 2 2 2 2
+    2 2 2 2 2 2 2 2 2 2 2 2 2
+     2 2 2 2 2 2 2 2 2 2 2 2
+      2 2 2 2 2 2 2 2 2 2 2
+       2 2 2 2 2 2 2 2 2 2
+        2 2 2 2 2 2 2 2 2</universes>
+  </hex_lattice>
+  <hex_lattice id="3" n_rings="17" name="core">
+    <pitch>21.08</pitch>
+    <outer>3</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                6
+               6 6
+              6 6 6
+             6 6 6 6
+            6 6 6 6 6
+           6 6 6 6 6 6
+          6 6 6 6 6 6 6
+         6 6 6 6 6 6 6 6
+        6 6 6 6 6 6 6 6 6
+       6 6 6 6 5 5 6 6 6 6
+      6 6 6 6 5 5 5 6 6 6 6
+     6 6 6 5 5 5 5 5 5 6 6 6
+    6 6 6 5 5 5 5 5 5 5 6 6 6
+   6 6 6 5 5 5 5 5 5 5 5 6 6 6
+  6 6 6 5 5 5 5 5 5 5 5 5 6 6 6
+ 6 6 6 6 5 5 5 5 5 5 5 5 6 6 6 6
+6 6 6 6 5 5 5 4 4 4 5 5 5 6 6 6 6
+ 6 6 6 5 5 5 4 4 4 4 5 5 5 6 6 6
+6 6 6 5 5 5 4 4 4 4 4 5 5 5 6 6 6
+ 6 6 5 5 5 4 4 4 4 4 4 5 5 5 6 6
+6 6 6 5 5 4 4 4 4 4 4 4 5 5 6 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 5 5 5 4 4 4 4 4 4 4 5 5 5 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 6 5 4 4 4 4 4 4 4 4 4 4 5 6 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 5 5 4 4 4 4 4 4 4 4 4 4 5 5 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 5 5 4 4 4 4 4 4 4 4 4 4 5 5 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 5 5 4 4 4 4 4 4 4 4 4 4 5 5 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 5 5 4 4 4 4 4 4 4 4 4 4 5 5 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 6 5 4 4 4 4 4 4 4 4 4 4 5 6 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 5 5 4 4 4 4 4 4 4 4 4 5 5 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 5 5 5 4 4 4 4 4 4 4 5 5 5 6 6
+ 6 6 5 5 4 4 4 4 4 4 4 4 5 5 6 6
+6 6 6 5 5 4 4 4 4 4 4 4 5 5 6 6 6
+ 6 6 5 5 5 4 4 4 4 4 4 5 5 5 6 6
+6 6 6 5 5 5 4 4 4 4 4 5 5 5 6 6 6
+ 6 6 6 5 5 5 4 4 4 4 5 5 5 6 6 6
+6 6 6 6 5 5 5 4 4 4 5 5 5 6 6 6 6
+ 6 6 6 6 5 5 5 5 5 5 5 5 6 6 6 6
+  6 6 6 5 5 5 5 5 5 5 5 5 6 6 6
+   6 6 6 5 5 5 5 5 5 5 5 6 6 6
+    6 6 6 5 5 5 5 5 5 5 6 6 6
+     6 6 6 5 5 5 5 5 5 6 6 6
+      6 6 6 6 5 5 5 6 6 6 6
+       6 6 6 6 5 5 6 6 6 6
+        6 6 6 6 6 6 6 6 6
+         6 6 6 6 6 6 6 6
+          6 6 6 6 6 6 6
+           6 6 6 6 6 6
+            6 6 6 6 6
+             6 6 6 6
+              6 6 6
+               6 6
+                6</universes>
+  </hex_lattice>
+  <surface coeffs="0.0 0.0 0.4715" id="1" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4865" id="2" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.5365" id="3" type="z-cylinder"/>
+  <surface boundary="vacuum" coeffs="50" id="4" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="-50" id="5" type="z-plane"/>
+  <surface coeffs="10.539962176758511" id="6" type="y-plane"/>
+  <surface coeffs="-10.539962176758511" id="7" type="y-plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 21.079924353517022" id="8" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 -21.079924353517022" id="9" type="plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 -21.079924353517022" id="10" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 21.079924353517022" id="11" type="plane"/>
+  <surface coeffs="10.539962176758511" id="12" type="x-plane"/>
+  <surface coeffs="-10.539962176758511" id="13" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 12.1705" id="14" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 12.1705" id="15" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -12.1705" id="16" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -12.1705" id="17" type="plane"/>
+  <surface coeffs="10.539962176758511" id="18" type="y-plane"/>
+  <surface coeffs="-10.539962176758511" id="19" type="y-plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 21.079924353517022" id="20" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 -21.079924353517022" id="21" type="plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 -21.079924353517022" id="22" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 21.079924353517022" id="23" type="plane"/>
+  <surface boundary="vacuum" coeffs="301.22095594430345" id="24" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-301.22095594430345" id="25" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 347.82" id="26" type="plane"/>
+  <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 347.82" id="27" type="plane"/>
+  <surface boundary="vacuum" coeffs="-0.5773502691896257 1.0 0.0 -347.82" id="28" type="plane"/>
+  <surface boundary="vacuum" coeffs="0.5773502691896257 1.0 0.0 -347.82" id="29" type="plane"/>
+</geometry>
