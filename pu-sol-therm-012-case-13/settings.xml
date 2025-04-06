@@ -10,6 +10,6 @@
       <parameters>-65 -65 0  65  65 67.46</parameters>
     </space>
   </source>
-  <max_lost_particles>10000</max_lost_particles>
+  <max_lost_particles>1000000</max_lost_particles>
   <rel_max_lost_particles>0.999</rel_max_lost_particles>
 </settings>
