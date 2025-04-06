@@ -1,18 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <settings>
-
-  <!--
-  ===============================================================
-  Description: Rectangular Array of Water-Moderated MOX Fuel Rods
-  Case:        MIX-COMP-THERM-002, PNL-31
-  ===============================================================
-  -->
-
   <run_mode>eigenvalue</run_mode>
   <batches>3000</batches>
   <inactive>20</inactive>
   <particles>10000</particles>
-
   <source>
     <space type="box">
       <parameters>
@@ -21,5 +12,6 @@
       </parameters>
     </space>
   </source>
-
+  <max_lost_particles>10000</max_lost_particles>
+  <rel_max_lost_particles>0.999</rel_max_lost_particles>
 </settings>

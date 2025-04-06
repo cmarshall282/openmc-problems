@@ -1,20 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <settings>
-
-  <!--
-  ==========================================================
-  Description: B&W Critical Lattices Core XI
-  Case:        LEU-COMP-THERM Loading 2
-  ==========================================================
-  -->
-
-  <!-- Parameters for criticality calculation -->
   <run_mode>eigenvalue</run_mode>
   <batches>20</batches>
   <inactive>10</inactive>
   <particles>10000</particles>
-
-  <!-- Starting source -->
   <source>
     <space>
       <type>box</type>
@@ -24,5 +13,6 @@
       </parameters>
     </space>
   </source>
-
+  <max_lost_particles>10000</max_lost_particles>
+  <rel_max_lost_particles>0.999</rel_max_lost_particles>
 </settings>
