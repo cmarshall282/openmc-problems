@@ -33,7 +33,6 @@
     <nuclide ao="0.9907996814341512" name="Cu63"/>
     <nuclide ao="0.005507056396711977" name="O16"/>
     <nuclide ao="2.0921524418740345e-06" name="O17"/>
-    <nuclide ao="1.1042590355474455e-05" name="O18"/>
     <nuclide ao="0.00368012742633955" name="Al27"/>
   </material>
 </materials>

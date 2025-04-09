@@ -8,7 +8,6 @@
     <nuclide ao="6.957260872207403e-05" name="U236"/>
     <nuclide ao="1.9952412" name="O16"/>
     <nuclide ao="0.000758" name="O17"/>
-    <nuclide ao="0.0040008" name="O18"/>
   </material>
   <material id="2" name="Zircaloy">
     <density units="g/cm3" value="6.55"/>
@@ -47,7 +46,6 @@
     <nuclide ao="0.00031148" name="H2"/>
     <nuclide ao="0.9976206" name="O16"/>
     <nuclide ao="0.000379" name="O17"/>
-    <nuclide ao="0.0020004" name="O18"/>
     <sab name="c_H_in_H2O"/>
   </material>
 </materials>
