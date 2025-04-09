@@ -16,7 +16,6 @@
   <material id="3" name="Stainless Steel">
     <density units="g/cm3" value="8.0"/>
     <nuclide name="C0" wo="0.07904054760685493"/>
-    <nuclide name="C13" wo="0.000959452393145078"/>
     <nuclide name="Si28" wo="0.9187351728283676"/>
     <nuclide name="Si29" wo="0.04831750292786396"/>
     <nuclide name="Si30" wo="0.03294732424376842"/>
