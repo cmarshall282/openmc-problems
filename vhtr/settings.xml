@@ -2,15 +2,12 @@
 <settings>
   <run_mode>eigenvalue</run_mode>
   <particles>5000</particles>
-  <batches>100</batches>
+  <batches>25</batches>
   <inactive>10</inactive>
   <source particle="neutron" strength="1.0" type="independent">
     <space type="box">
       <parameters>-5 -5 -0.63 5 5 0.63</parameters>
     </space>
-    <constraints>
-      <fissionable>true</fissionable>
-    </constraints>
   </source>
   <output>
     <tallies>true</tallies>
